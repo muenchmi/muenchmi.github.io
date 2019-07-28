@@ -1,0 +1,88 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Fahkwang|Nova+Flat|Staatliches')
+	;
+
+html {
+	font-family: 'Arial', sans-serif;
+}
+
+h1 {
+	font-size: 400%;
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+	margin: 1%;
+	padding: 1%;
+	height: 200%;
+}
+
+Canvas {
+	float: left;
+}
+
+p {
+	padding: 1%;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 200px;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+
+/* #Endbildschirm {
+	float: left;
+} */
+
+#endscore, #name {
+	text-align: center;
+	width: 15%;
+	padding: 2%;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 150%;
+	background: #3366cc;
+	color: #fff;
+	border: 1px solid #3366cc;
+	border-radius: 10px;
+}
+
+#endscore {
+	text-align: center;
+	width: 10%;
+	padding: 1%;
+	cursor: none;
+	font-weight: bold;
+	font-size: 100%;
+	background: #3366cc;
+	color: #ffffff;
+	border-radius: 10px;
+	margin: auto;
+}
+
+#bestenliste {
+	text-align: center;
+}
+
+canvas {
+	width: 100%;
+}
+	
+@media screen and (min-width: 35em) {
+	canvas {
+		width: 100%;	
+	}
+	
+@media screen and (min-width: 48em) {
+	canvas {
+		width: 100%;	
+	}
+	
+@media screen and (min-width: 64em) {
+	canvas {
+		height: 100%;
+		width: 65%;	
+	}
